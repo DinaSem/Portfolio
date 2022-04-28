@@ -1,20 +1,22 @@
-.skillsBlock{
-    min-height: 100vh;
+.projectBlock {
+    /*min-height: 100vh;*/
     background-color: #cdf64f;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
+    padding: 100px 0;
 }
-.skillsContainer{
+
+.projectContainer {
     justify-content: flex-start;
     flex-direction: column;
+    flex-wrap: wrap;
 
 }
-.skillsTitle{
-background-color: slategray;
-}
-.skills{
-    border: 1px solid;
+
+
+.projects {
+    /*border: 1px solid;*/
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }

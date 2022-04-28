@@ -2,13 +2,14 @@ import React from 'react';
 import s from './Skills.module.css';
 import st from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
+import Title from "../common/styles/components/title/Title";
 
 
 function Skills() {
     return (
         <div className={s.skillsBlock}>
             <div className={`${st.container} ${s.skillsContainer}`}>
-                <h2 className={s.skillsTitle}>My skills</h2>
+                <Title text={'Skills'} />
 
                 <div className={s.skills}>
                     <Skill title={'Js'} description={'Что-то'}/>
