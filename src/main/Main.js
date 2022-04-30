@@ -10,7 +10,10 @@ function Main() {
     return (
         <div className={s.main}>
             <div className={st.container}>
-                <div style={photo} className={s.photo}>
+                {/*<div className={s.sicle}>*/}
+                    <div style={photo} className={s.photo}>
+                {/*</div>*/}
+
                 </div>
                 <div className={s.text}>
                     <span className={s.bigText}>Hello, my name is</span>

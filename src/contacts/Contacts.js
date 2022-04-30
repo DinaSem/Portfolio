@@ -11,9 +11,9 @@ function Contacts() {
             <div className={`${st.container} ${s.contactsContainer}`}>
                <Title text={'Contacts'} />
                 <form className={s.contactsForm}>
-                    <input type="text" className={s.formAria} placeholder={'Name'}/>
-                    <input type="text" className={s.formAria} placeholder={'e-mail'}/>
-                    <textarea className={s.messageAria} placeholder={'Message'}/>
+                    <input type="text" className={s.formAria} placeholder={'Your Name'}/>
+                    <input type="text" className={s.formAria} placeholder={'Your E-mail'}/>
+                    <textarea className={s.messageAria} placeholder={'Your Message'}/>
                     <button type='submit' className={s.submitBtn}>Отправить</button>
                 </form>
             </div>

@@ -1,11 +1,17 @@
 .main {
   height: 100vh;
   background-color: #f5f5f5;
-
+}
+//.sicle{
+//  width: 320px;
+//  height: 320px;
+//  background-color: #9b1b1b;
+//  border-radius: 50%;
+//}
   .photo {
     width: 250px;
     height: 250px;
-    background-color: sandybrown;
+    //background-color: sandybrown;
     justify-content: center;
     align-items: center;
     background-size: cover;
@@ -13,7 +19,19 @@
     background-repeat: no-repeat;
     border-radius: 50%;
     border: #e86723 solid 13px;
+    //padding: 5.5px;
+    //background-clip: content-box;
+    //animation: spin 10s linear infinite;
   }
+
+
+  //@keyframes spin {
+  //  100% {
+  //    transform: rotateZ(360deg);
+  //  }
+  //}
+
+
 
   .text {
     width: 400px;
@@ -57,4 +75,3 @@
       text-transform: uppercase;
     }
   }
-}

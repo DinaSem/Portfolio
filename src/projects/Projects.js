@@ -3,8 +3,8 @@ import s from './Projects.module.scss';
 import st from '../common/styles/Container.module.scss'
 import Project from "./project/Project";
 import Title from "../common/component/title/Title";
-import todoImage from "./../assets/image/ToDoList.png"
-import socialImage from "./../assets/image/socialnet.jpg"
+import todoImage from "./../assets/image/todolist.jpg"
+import socialImage from "./../assets/image/soc.png"
 
 function Projects() {
     const todo={
