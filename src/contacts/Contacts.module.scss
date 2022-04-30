@@ -1,0 +1,44 @@
+@import "../common/styles/sass/variables";
+
+.contactsBlock {
+  background-color: #ffffff;
+  min-height: 60vh;
+
+  .container {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .contactsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    .contactsForm {
+      width: 50%;
+      //background-color: slategray;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+.contactsForm input, .contactsForm textarea {
+  width: 100%;
+}
+
+.formAria, .messageAria {
+  background: $bgSecondColor;
+  border: 1px solid #4a4a4a;
+  box-sizing: border-box;
+  ouline: none;
+  color:#495057;
+  margin-bottom: 1.2rem;
+  border-radius: 3px;
+
+}

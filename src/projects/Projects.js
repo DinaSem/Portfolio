@@ -1,8 +1,8 @@
 import React from 'react';
-import s from './Projects.module.css';
-import st from '../common/styles/Container.module.css'
+import s from './Projects.module.scss';
+import st from '../common/styles/Container.module.scss'
 import Project from "./project/Project";
-import Title from "../common/styles/components/title/Title";
+import Title from "../common/component/title/Title";
 import todoImage from "./../assets/image/ToDoList.png"
 import socialImage from "./../assets/image/socialnet.jpg"
 

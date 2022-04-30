@@ -1,8 +1,8 @@
 import React from 'react';
-import s from './Skills.module.css';
-import st from '../common/styles/Container.module.css'
+import s from './Skills.module.scss';
+import st from '../common/styles/Container.module.scss'
 import Skill from "./skill/Skill";
-import Title from "../common/styles/components/title/Title";
+import Title from "../common/component/title/Title";
 
 
 function Skills() {

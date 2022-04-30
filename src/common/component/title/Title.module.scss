@@ -1,0 +1,29 @@
+.projectTitle {
+    margin: 0 0 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #282828;
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
+    text-transform: uppercase;
+    &::before {
+        content: '';
+        position: absolute;
+        background-color: black;
+        width: 65px;
+        height: 1px;
+        left: 50%;
+        bottom: 20px;
+        transform: translate(-50%, -50%);
+    }
+    .projectTitle h2{
+        margin: 0;
+    }
+}
+
+
+
+
