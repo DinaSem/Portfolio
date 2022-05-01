@@ -14,7 +14,7 @@ function Contacts() {
                     <input type="text" className={s.formAria} placeholder={'Your Name'}/>
                     <input type="text" className={s.formAria} placeholder={'Your E-mail'}/>
                     <textarea className={s.messageAria} placeholder={'Your Message'}/>
-                    <button type='submit' className={s.submitBtn}>Send</button>
+                    <button type='submit' className={s.submitBtn}>Send Message</button>
                 </form>
             </div>
         </div>

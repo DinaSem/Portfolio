@@ -20,5 +20,10 @@
   letter-spacing: 0.40px;
   padding: 0 5px;
   margin-left: -35px;
+  &:hover, &:active{
+    color: #e86723;
+    border-bottom: 1px solid #e86723;
+    transition:  0.5s;
+  }
 
 }

@@ -61,16 +61,19 @@
   width: 100%;
   font: inherit;
 }
-button{
-    background-color: #e86723;
-    padding: 10px 20px;
-    position: relative;
-    z-index: 1;
-    text-decoration: none;
-    border-radius: 5%;
-    color:black;
+
+button {
+  background-color: #e86723;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  border-radius: 3%;
+  color: black;
   font-family: Montserrat, sans-serif;
   font-size: 20px;
   border: none;
-  width: 140px;
+  &:hover{
+    background-color: #e85203;
+  }
 }
