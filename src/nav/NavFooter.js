@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './NavFooter.module.css';
+import s from './NavFooter.module.scss';
 
 
 function NavFooter() {

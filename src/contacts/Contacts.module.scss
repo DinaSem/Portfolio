@@ -25,6 +25,9 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      @media screen and (max-width: 701px) {
+        width: 70%;
+      }
     }
   }
 }
@@ -35,7 +38,7 @@
 
 .formAria {
   border: none;
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid #9f9c9c;
   margin-bottom: 1.2rem;
   line-height: 26px;
   color: #b3b3b3;
@@ -45,7 +48,7 @@
 
 .messageAria {
   min-height: 148px;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #9f9c9c;
   box-sizing: border-box;
   outline: none;
   color: #495057;

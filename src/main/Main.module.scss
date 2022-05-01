@@ -34,8 +34,10 @@
 
 
   .text {
-    width: 400px;
-
+    max-width: 400px;
+    @media screen and (max-width: 814px) {
+      text-align: center;
+    }
     .bigText {
       color: #777777;
       font-size: 18px;
@@ -47,6 +49,12 @@
       padding: 0 5px;
       margin-left: -35px;
       text-transform: uppercase;
+      @media screen and (max-width: 515px) {
+        font-size: 16px;
+        line-height: 35px;
+        font-weight: 600;
+        margin-left: 0;
+      }
     }
 
     h1 {
@@ -60,6 +68,12 @@
       padding: 0 5px;
       margin-left: -35px;
       text-transform: uppercase;
+      @media screen and (max-width: 515px) {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 600;
+        margin-left: 0;
+      }
     }
 
     p {
@@ -73,5 +87,11 @@
       padding: 0 5px;
       margin-left: -35px;
       text-transform: uppercase;
+      @media screen and (max-width: 515px) {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        margin-left: 0;
+      }
     }
   }

@@ -3,7 +3,7 @@ import s from './Skills.module.scss';
 import st from '../common/styles/Container.module.scss'
 import Skill from "./skill/Skill";
 import Title from "../common/component/title/Title";
-import style from './skill/Skill.module.css';
+import style from './skill/Skill.module.scss';
 
 function Skills() {
     return (
