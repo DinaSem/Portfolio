@@ -9,12 +9,12 @@ function Contacts() {
     return (
         <div className={s.contactsBlock}>
             <div className={`${st.container} ${s.contactsContainer}`}>
-               <Title text={'Contacts'} />
+               <Title text={'Contact'} />
                 <form className={s.contactsForm}>
                     <input type="text" className={s.formAria} placeholder={'Your Name'}/>
                     <input type="text" className={s.formAria} placeholder={'Your E-mail'}/>
                     <textarea className={s.messageAria} placeholder={'Your Message'}/>
-                    <button type='submit' className={s.submitBtn}>Отправить</button>
+                    <button type='submit' className={s.submitBtn}>Send</button>
                 </form>
             </div>
         </div>

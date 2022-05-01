@@ -4,15 +4,15 @@ import st from '../common/styles/Container.module.scss'
 import myPhoto from "../assets/image/MyPhoto.jpg";
 
 function Main() {
-    const photo={
+    const photo = {
         backgroundImage: `url(${myPhoto})`
     }
     return (
         <div className={s.main}>
             <div className={st.container}>
                 {/*<div className={s.sicle}>*/}
-                    <div style={photo} className={s.photo}>
-                {/*</div>*/}
+                <div style={photo} className={s.photo}>
+                    {/*</div>*/}
 
                 </div>
                 <div className={s.text}>
