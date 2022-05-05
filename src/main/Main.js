@@ -2,6 +2,7 @@ import React from 'react';
 import s from './Main.module.scss'
 import st from '../common/styles/Container.module.scss'
 import myPhoto from "../assets/image/MyPhoto.jpg";
+import ReactTypingEffect from 'react-typing-effect';
 
 function Main() {
     const photo = {
@@ -18,7 +19,10 @@ function Main() {
                 <div className={s.text}>
                     <span className={s.bigText}>Hello, my name is</span>
                     <h1>Dina semenova</h1>
-                    <p> Frontend Developer</p>
+                    <p>
+                        <ReactTypingEffect speed={100} text={['Frontend Developer']}/>
+                    </p>
+
                 </div>
             </div>
 
