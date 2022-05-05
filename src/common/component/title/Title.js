@@ -2,7 +2,6 @@ import React from 'react';
 import s from './Title.module.scss';
 
 
-
 function Title(props) {
     return (
 

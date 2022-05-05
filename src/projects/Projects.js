@@ -15,12 +15,10 @@ function Projects() {
         backgroundImage: `url(${socialImage})`
     }
     return (
-        <div className={s.projectBlock}>
+        <div id='projects' className={s.projectBlock}>
             <Fade top>
                 <div className={`${st.container} ${s.projectContainer}`}>
-
                     <Title text={'Projects'}/>
-
                     <div className={s.projects}>
                         <Project style={social} title={'Social network'}
                                  description={'TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui for some component, SCSS, Formik; Bug fixing, deployin.'}/>
@@ -28,7 +26,6 @@ function Projects() {
                                  description={'TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui, Formik, Storybook; Bug fixing, deployin; Covering code with unit tests.'}/>
                         <Project title={'Project #3'} description={'In progress'}/>
                     </div>
-
                 </div>
             </Fade>
         </div>

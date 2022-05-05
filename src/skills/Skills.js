@@ -4,10 +4,12 @@ import st from '../common/styles/Container.module.scss'
 import Skill from "./skill/Skill";
 import Title from "../common/component/title/Title";
 import style from './skill/Skill.module.scss';
+import Fade from 'react-reveal/Fade'
 
 function Skills() {
     return (
-        <div className={s.skillsBlock}>
+        <div id='skills' className={s.skillsBlock}>
+            <Fade top>
             <div className={`${st.container} ${s.skillsContainer}`}>
                 <Title text={'Skills'}/>
 
@@ -22,10 +24,9 @@ function Skills() {
                         <Skill title={'HTML/SCSS'} percent={'100%'} style={style.html}/>
                         <Skill title={'GIT/Photoshop/Figma'} percent={'90%'} style={style.git}/>
                     </div>
-
                 </div>
             </div>
-
+            </Fade>
         </div>
     );
 }
