@@ -9,7 +9,7 @@ function Main() {
         backgroundImage: `url(${myPhoto})`
     }
     return (
-        <div className={s.main}>
+        <div id='home' className={s.main}>
             <div className={st.container}>
                 {/*<div className={s.sicle}>*/}
                 <div style={photo} className={s.photo}>

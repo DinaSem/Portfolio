@@ -2,15 +2,16 @@ import React from 'react';
 import s from './Nav.module.scss';
 import {Link, animateScroll as scroll, scrollSpy, scroller} from 'react-scroll'
 
+
 function Nav() {
     return (
-        <div id='home' className={s.nav}>
+        <div  className={s.nav}>
             <Link activeClass={s.active}
                   to="home"
                   spy={true}
                   smooth={true}
                   hashSpy={true}
-                  offset={1}
+                  offset={-100}
                   duration={500}
                   delay={1000}
                   isDynamic={true}
@@ -20,7 +21,7 @@ function Nav() {
                   spy={true}
                   smooth={true}
                   hashSpy={true}
-                  offset={1}
+                  offset={-100}
                   duration={500}
                   delay={1000}
                   isDynamic={true}
@@ -30,17 +31,17 @@ function Nav() {
                   spy={true}
                   smooth={true}
                   hashSpy={true}
-                  offset={1}
+                  offset={-75}
                   duration={500}
                   delay={1000}
                   isDynamic={true}
             > PROJECTS</Link>
             <Link activeClass={s.active}
-                  to="contacts"
+                  to="contact"
                   spy={true}
                   smooth={true}
                   hashSpy={true}
-                  offset={1}
+                  offset={-75}
                   duration={500}
                   delay={1000}
                   isDynamic={true}

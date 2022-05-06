@@ -5,7 +5,8 @@ import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
 import Footer from "./footer/Footer";
-import Contacts from "./contacts/Contacts";
+import Contacts from "./contacts/Contacts"
+
 
 function App() {
     return (

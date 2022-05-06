@@ -21,7 +21,16 @@
   text-transform: uppercase;
   &:hover, &:active{
     color: #e86723;
-    border-bottom: 1px solid #e86723;
-    transition:  0.5s;
+    &::before {
+      content: '';
+      position: absolute;
+      background-color: #e86723;
+      width: 90%;
+      height: 1px;
+      left: 50%;
+      bottom: 10px;
+      transform: translate(-50%, -50%);
+    }
   }
+
 }
