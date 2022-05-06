@@ -11,11 +11,7 @@ function Main() {
     return (
         <div id='home' className={s.main}>
             <div className={st.container}>
-                {/*<div className={s.sicle}>*/}
-                <div style={photo} className={s.photo}>
-                    {/*</div>*/}
-
-                </div>
+                <div style={photo} className={s.photo}></div>
                 <div className={s.text}>
                     <span className={s.bigText}>Hello, my name is</span>
                     <h1>Dina semenova</h1>
