@@ -13,10 +13,10 @@ function Main() {
             <div className={st.container}>
                 <div style={photo} className={s.photo}></div>
                 <div className={s.text}>
-                    <span className={s.bigText}>Hello, my name is</span>
+                    <span className={s.bigText}>Hi, I am</span>
                     <h1>Dina semenova</h1>
                     <p>
-                        <ReactTypingEffect speed={100} text={['Frontend Developer']}/>
+                        <ReactTypingEffect speed={100} text={['Front end Developer']}/>
                     </p>
 
                 </div>
