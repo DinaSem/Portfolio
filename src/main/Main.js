@@ -16,7 +16,7 @@ function Main() {
                     <span className={s.bigText}>Hi, I am</span>
                     <h1>Dina semenova</h1>
                     <p>
-                        <ReactTypingEffect speed={100} text={['Front end Developer']}/>
+                        <ReactTypingEffect speed={100} text={['Frontend Developer']}/>
                     </p>
 
                 </div>

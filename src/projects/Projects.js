@@ -16,7 +16,7 @@ function Projects() {
     }
     return (
         <div id='projects' className={s.projectBlock}>
-            <Fade top>
+            <Fade bottom>
                 <div className={`${st.container} ${s.projectContainer}`}>
                     <Title text={'Projects'}/>
                     <div className={s.projects}>
