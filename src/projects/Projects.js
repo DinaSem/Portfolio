@@ -5,6 +5,7 @@ import Project from "./project/Project";
 import Title from "../common/component/title/Title";
 import todoImage from "./../assets/image/todolist.jpg"
 import socialImage from "./../assets/image/soc.png"
+import movies from "./../assets/image/movies.jpg"
 import Fade from 'react-reveal/Fade'
 
 function Projects() {
@@ -21,10 +22,12 @@ function Projects() {
                     <Title text={'Projects'}/>
                     <div className={s.projects}>
                         <Project style={social} title={'Social network'}
-                                 description={'TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui for some component, SCSS, Formik; Bug fixing, deployin.'}/>
+                                 description={'TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui for some component, SCSS, Formik; Bug fixing, deploying.'}/>
                         <Project style={todo} title={'Todo-list'}
-                                 description={'TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui, Formik, Storybook; Bug fixing, deployin; Covering code with unit tests.'}/>
-                        <Project title={'Project #3'} description={'In progress'}/>
+                                 description={'TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui, Formik, Storybook; Bug fixing, deploying; Covering code with unit tests.'}/>
+                        <Project style={movies} title={'Project #3'} description={'Movies'}
+                                 description={'TypeScript, React, Redux, Redux-thunk, Router-dom, Axios, Mui for some component, CSS; Bug fixing, deploying.'}/>
+                        />
                     </div>
                 </div>
             </Fade>
