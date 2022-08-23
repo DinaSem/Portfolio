@@ -28,7 +28,8 @@ function Projects() {
                                  description={'TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui for some component, SCSS, Formik; Bug fixing, deploying.'}/>
                         <Project style={todo} title={'Todo-list'}
                                  description={'TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui, Formik, Storybook; Bug fixing, deploying; Covering code with unit tests.'}/>
-                        <Project style={movies} title={'Project #3'} description={'Movies'}
+                        <Project style={movies} title={'Movies'} description={'Movies'}
+                                 href={'https://dinasem.github.io/Movies_project/'}
                                  description={'TypeScript, React, Redux, Redux-thunk, Router-dom, Axios, Mui for some component, CSS; Bug fixing, deploying.'}/>
                         />
                     </div>
