@@ -5,7 +5,7 @@ import Project from "./project/Project";
 import Title from "../common/component/title/Title";
 import todoImage from "./../assets/image/todolist.jpg"
 import socialImage from "./../assets/image/soc.png"
-import movies from "./../assets/image/movies.jpg"
+import moviesImage from "./../assets/image/movies.jpg"
 import Fade from 'react-reveal/Fade'
 
 function Projects() {
@@ -14,6 +14,9 @@ function Projects() {
     }
     const social = {
         backgroundImage: `url(${socialImage})`
+    }
+    const movies = {
+        backgroundImage: `url(${moviesImage})`
     }
     return (
         <div id='projects' className={s.projectBlock}>
