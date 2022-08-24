@@ -27,6 +27,7 @@ function Projects() {
                         <Project style={social} title={'Social network'}
                                  description={'TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui for some component, SCSS, Formik; Bug fixing, deploying.'}/>
                         <Project style={todo} title={'Todo-list'}
+                                 href={'https://dinasem.github.io/Todolist/#/'}
                                  description={'TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui, Formik, Storybook; Bug fixing, deploying; Covering code with unit tests.'}/>
                         <Project style={movies} title={'Movies'} description={'Movies'}
                                  href={'https://dinasem.github.io/Movies_project/'}
