@@ -4,6 +4,7 @@
   background-color: #ffffff;
   min-height: 80vh;
 
+
   .container {
     border: 1px solid;
     min-height: 100%;
@@ -69,7 +70,44 @@ button {
   font-size: 20px;
   border: none;
   cursor: pointer;
-  &:hover{
+
+  &:hover {
     background-color: #e85203;
   }
+}
+
+.EmailWrapper {
+  display: flex;
+  align-content: center;
+  min-width: 300px;
+  margin-top: 30px;
+}
+.telegramWrapper {
+  display: flex;
+  align-content: center;
+  min-width: 300px;
+  margin-top: 30px;
+}
+
+.contactsEmailGif {
+  height: 50px;
+}
+
+.EmailWrapper a {
+  padding: 13px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  line-height: 33px;
+}
+.telegramGif{
+  height: 50px;
+  border-radius: 50%;
+}
+.telegramWrapper a {
+  padding: 13px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  line-height: 33px;
 }
