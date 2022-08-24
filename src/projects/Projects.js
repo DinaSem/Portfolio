@@ -32,8 +32,6 @@ function Projects() {
                                  description={'TypeScript, React, Redux, Redux-thunk, Router-dom, Axios, Mui for some component, CSS; Bug fixing, deploying.'}/>
                         <Project style={social} title={'Social network'}
                                  description={'TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui for some component, SCSS, Formik; Bug fixing, deploying.'}/>
-
-                        />
                     </div>
                 </div>
             </Fade>
