@@ -4,7 +4,6 @@ import st from '../common/styles/Container.module.scss'
 import Project from "./project/Project";
 import Title from "../common/component/title/Title";
 import todoImage from "./../assets/image/todolist.jpg"
-import socialImage from "./../assets/image/soc.png"
 import cards from "./../assets/image/cardProject.jpg"
 import moviesImage from "./../assets/image/movies.jpg"
 import Fade from 'react-reveal/Fade'
@@ -13,8 +12,8 @@ function Projects() {
     const todo = {
         backgroundImage: `url(${todoImage})`
     }
-    const social = {
-        backgroundImage: `url(${socialImage})`
+    const cards = {
+        backgroundImage: `url(${cards})`
     }
     const movies = {
         backgroundImage: `url(${moviesImage})`
