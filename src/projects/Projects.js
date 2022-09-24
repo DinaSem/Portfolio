@@ -12,7 +12,7 @@ function Projects() {
     const todo = {
         backgroundImage: `url(${todoImage})`
     }
-    const cards = {
+    const card = {
         backgroundImage: `url(${cards})`
     }
     const movies = {
@@ -30,7 +30,7 @@ function Projects() {
                         <Project style={movies} title={'Movies'} description={'Movies'}
                                  href={'https://dinasem.github.io/Movies_project/'}
                                  description={'TypeScript, React, Redux, Redux-thunk, Router-dom, Axios, Mui for some component, CSS; Bug fixing, deploying.'}/>
-                        <Project style={cards} title={'Cards'}
+                        <Project style={card} title={'Cards'}
                                  href={'https://dinasem.github.io/CardsProject/'}
                                  description={'TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui for some component, SCSS, Formik; Bug fixing, deploying.'}/>
                     </div>
