@@ -5,6 +5,7 @@ import Project from "./project/Project";
 import Title from "../common/component/title/Title";
 import todoImage from "./../assets/image/todolist.jpg"
 import socialImage from "./../assets/image/soc.png"
+import cards from "./../assets/image/cardProject.jpg"
 import moviesImage from "./../assets/image/movies.jpg"
 import Fade from 'react-reveal/Fade'
 
@@ -30,7 +31,8 @@ function Projects() {
                         <Project style={movies} title={'Movies'} description={'Movies'}
                                  href={'https://dinasem.github.io/Movies_project/'}
                                  description={'TypeScript, React, Redux, Redux-thunk, Router-dom, Axios, Mui for some component, CSS; Bug fixing, deploying.'}/>
-                        <Project style={social} title={'Social network'}
+                        <Project style={cards} title={'Cards'}
+                                 href={'https://dinasem.github.io/CardsProject/'}
                                  description={'TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui for some component, SCSS, Formik; Bug fixing, deploying.'}/>
                     </div>
                 </div>
